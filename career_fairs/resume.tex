@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage{tabularx}
@@ -11,8 +11,8 @@
 \usepackage{fontawesome5}
 \input{glyphtounicode}
 
-\geometry{left=0.85cm, top=0.6cm, right=0.85cm, bottom=0.2cm}
-\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large}{}{0em}{}[\titlerule\vspace{-7pt}]
+\geometry{left=0.75cm, top=0.45cm, right=0.75cm, bottom=0.35cm}
+\titleformat{\section}{\vspace{-6pt}\scshape\raggedright\large}{}{0em}{}[\titlerule\vspace{-8pt}]
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -45,7 +45,7 @@
 		\small\textbf{#1} & \footnotesize{#3}\\[-1mm]
 		\footnotesize{#2} & \footnotesize{#4}
 	\end{tabular*}\vspace{-1mm}}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm,topsep=0pt,parsep=0pt,partopsep=0pt,itemsep=1.25mm]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm,topsep=0pt,parsep=0pt,partopsep=0pt,itemsep=0.85mm]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=3ex,rightmargin=2ex,noitemsep,labelsep=1.2mm,itemsep=0mm,topsep=0.25mm,parsep=0pt,label=$\vcenter{\hbox{\tiny$\bullet$}}$]\small}
 \newcommand{\resumeItemListEnd}{\end{itemize}}
@@ -59,8 +59,7 @@
 	\small\faGlobe \hspace{0.2cm}\href{https://sebastiandleon.dev}{www.sebastiandleon.dev} \\
 	\small\faGithub\ \href{https://github.com/ctrl-Sebastian}{github.com/ctrl-Sebastian} $|$
 	\faEnvelope\ \href{mailto:sdb4536@wmich.edu}{sdb4536@wmich.edu} $|$
-	\faLinkedin\ \href{https://www.linkedin.com/in/sebastiandleon/}{linkedin.com/in/sebastiandleon} $|$
-	\faPhone\ +1-269-217-6060
+	\faLinkedin\ \href{https://www.linkedin.com/in/sebastiandleon/}{linkedin.com/in/sebastiandleon}
 \end{center}
 \vspace{-3mm}
 
@@ -69,6 +68,6 @@
 \input{sections/experience}
 \input{sections/projects}
 \input{sections/skills}
-\input{sections/achievements_and_certifications}
+% \input{sections/achievements_and_certifications}
 
 \end{document}
